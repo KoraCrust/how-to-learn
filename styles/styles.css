@@ -95,7 +95,7 @@
     color: #2F80ED;
     line-height:1.2;
     font-size:18px;
-    font-weight: 300;
+    font-weight: normal;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -113,6 +113,7 @@
     line-height:34px;
     margin-top: 0px;
 }
+
 p:last-child{
     margin-bottom: 0;
 }
