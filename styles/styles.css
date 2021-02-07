@@ -27,7 +27,7 @@
     right: 0;
     width:765px;
     height:608px;
-    z-index: 1;
+    z-index: 5;
 }
 
 .header__title{
@@ -36,7 +36,11 @@
     justify-content: center;
     width: 730px;
     margin-left: 64px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
     font-size: 102px;
+    z-index: 10;
 }
 .header__subtitle{
     position: absolute;
@@ -46,10 +50,12 @@
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 0;
+    z-index: 10;
 }
 .header__link{
     text-decoration: none;
     color: #2f80ed;
+    z-index: 10;
 }
 
 .header__square-pic {
@@ -59,6 +65,7 @@
     top:64px;
     right:0;
     position: absolute;
+    z-index: 0;
 }
 
 .description{
@@ -126,6 +133,7 @@ p:last-child{
     margin-left:auto;
     margin-right:auto;
     text-align: center;
+    z-index: 20;
 }
 
 .section-subtitle {
@@ -200,7 +208,7 @@ p:last-child{
     margin-left:auto;
     margin-right:auto;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     text-align: center;
     z-index: 1;
 }
@@ -211,6 +219,7 @@ p:last-child{
     margin-top: 70px;
     text-align: center;
     z-index: 1;
+    margin-bottom: 0;
 }
 
 .feynman__link {
@@ -230,10 +239,10 @@ p:last-child{
     background-color: #1f1f1f;
     overflow:hidden;
     position: relative;
-    z-index: -2;
+    z-index: 1;
 }
 
-.kaufman-triangle{
+.kaufman__triangle{
     width:877px;
     height:877px;
     position: absolute;
@@ -248,7 +257,7 @@ p:last-child{
 
 .table_theme_dark {
     color: white;
-    z-index:1;
+    z-index:10;
 }
 
 .theme_dark {
